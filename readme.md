@@ -1,15 +1,8 @@
 # Overview & Background
-### Overview
+### Related surveys
 Deep reinforcement learning in power distribution systems: Overview, challenges, and opportunities. [[paper](https://ieeexplore.ieee.org/abstract/document/9372283)][2021]
-### Background
+A Survey on Physics Informed Reinforcement Learning: Review and Open Problems. [[paper](https://arxiv.org/abs/2309.01909)][2023]
 
-### optimization methods
-Learning to optimize. [[paper](https://arxiv.org/abs/1606.01885)][2016]
-
-
-
-### Others
-Optimal decentralized protocol for electric vehicle charging. [[paper](https://ieeexplore.ieee.org/abstract/document/6313962)][2012]
 
 # Network reconfiguration and restoration
 ### Network restoration
@@ -27,21 +20,21 @@ Optimal decentralized protocol for electric vehicle charging. [[paper](https://i
 
 
 # Crew dispatch
-MILP \cite{7812566, 8587140}, DP \cite{carvalho2007dynamic}, second-order conic programming (SOCP) \cite{pang2023dynamic} PSO[Fanucchi2021] AlphaZero[Shuai2023]
-Toward a synthetic model for distribution system restoration and crew dispatch. [2019]
-Power distribution system outage management with co-optimization of repairs, reconﬁguration, and DG dispatch. [2018]
-Dynamic restoration of large-scale distribution network contingencies: Crew dispatch assessment. [2007]
-Dynamic restoration of active distribution networks by coordinated repair crew dispatch and cold load pickup. [2023]
-A multiobjective algorithm to determine patrol sequences for out-of-service nodes in power distribution feeders. [2021]
-Post-storm repair crew dispatch for distribution grid restoration using stochastic Monte Carlo tree search and deep neural networks. [2023]
+
+- Toward a synthetic model for distribution system restoration and crew dispatch. [2019]
+- Power distribution system outage management with co-optimization of repairs, reconﬁguration, and DG dispatch. [2018]
+- Dynamic restoration of large-scale distribution network contingencies: Crew dispatch assessment. [2007]
+- Dynamic restoration of active distribution networks by coordinated repair crew dispatch and cold load pickup. [2023]
+- A multiobjective algorithm to determine patrol sequences for out-of-service nodes in power distribution feeders. [2021]
+- Post-storm repair crew dispatch for distribution grid restoration using stochastic Monte Carlo tree search and deep neural networks. [2023]
 # Volt-VAR control
 
 - A graph policy network approach for Volt-Var Control in power distribution systems. [[paper](https://www.sciencedirect.com/science/article/pii/S0306261922008479)][2022][lee2022graph]
    - We propose a framework that combines RL with graph neural networks and study the benefits and limitations of graph-based policy in the [VVC](https://www.sciencedirect.com/topics/engineering/volt-var-control) setting.
 - Model-augmented safe reinforcement learning for Volt-VAR control in power distribution networks. [[paper](https://www.sciencedirect.com/science/article/pii/S0306261922002148)][2022][gao2022model]
-   - to improve the algorithm’s performance when learning from limited data, we propose a novel mutual information [regularization](https://www.sciencedirect.com/topics/engineering/regularization) neural network for the safety layer.
+   - To improve the algorithm’s performance when learning from limited data, we propose a novel mutual information [regularization](https://www.sciencedirect.com/topics/engineering/regularization) neural network for the safety layer.
 - Two-Stage Volt/Var Control in Active Distribution Networks With Multi-Agent Deep Reinforcement Learning Method. [[paper](https://ieeexplore.ieee.org/abstract/document/9328796)][2021][sun2021two]
-   - proposes a two-stage deep reinforcement learning (DRL)-based real-time VVC method to mitigate fast voltage violation while minimizing the network power loss.
+   - We proposes a two-stage deep reinforcement learning (DRL)-based real-time VVC method to mitigate fast voltage violation while minimizing the network power loss.
    - The real-time VVC problem is formulated and solved using a multi-agent deep deterministic policy gradient (MADDPG) method, which features offline centralized training and online decentralized application.
 - Online Multi-Agent Reinforcement Learning for Decentralized Inverter-Based Volt-VAR Control. [[paper](https://ieeexplore.ieee.org/abstract/document/9356806)][2021][liu2021online]
    - In this framework, the VVC problem is formulated as a constrained Markov game and we propose a novel multi-agent constrained soft actor-critic (MACSAC) reinforcement learning algorithm. MACSAC is used to train the control agents online, so the accurate ADN model is no longer needed.
@@ -94,31 +87,39 @@ Combinatorial Optimization and Reasoning with Graph Neural Networks. [[paper](ht
 Hierarchical distributed multi-energy demand response for coordinated operation of building clusters. [[paper](https://www.sciencedirect.com/science/article/pii/S0306261921016068)][2022]
 
 # Distribution system optimal power ﬂow
-Compact Optimization Learning for AC Optimal Power Flow. [[paper](https://arxiv.org/abs/2301.08840)][2023][E2E]
-End-to-End Feasible Optimization Proxies for Large-Scale Economic Dispatch[[paper](https://arxiv.org/abs/2304.11726)][2023][E2E]
-Learning to Optimize: Accelerating Optimal Power Flow via Data-driven Constraint Screening. [[paper](https://arxiv.org/abs/2312.07276)][2023][Learning-assist Optimization]
-Optimal Power Flow Based on Physical-Model-Integrated Neural Network with Worth-Learning Data Generation. [[paper](https://arxiv.org/abs/2301.03766)][physics-informed]
-Learning Regionally Decentralized AC Optimal Power Flows With ADMM. [[paper](https://ieeexplore.ieee.org/abstract/document/10057067)][2023][Learning-assisted Optimization]
-Learning-Aided Asynchronous ADMM for Optimal Power Flow. [[paper](https://ieeexplore.ieee.org/abstract/document/9573286)][2021][Learning-assisted Optimization]
+
+- Compact Optimization Learning for AC Optimal Power Flow. [[paper](https://arxiv.org/abs/2301.08840)][2023][E2E]
+- End-to-End Feasible Optimization Proxies for Large-Scale Economic Dispatch[[paper](https://arxiv.org/abs/2304.11726)][2023][E2E]
+- Learning to Optimize: Accelerating Optimal Power Flow via Data-driven Constraint Screening. [[paper](https://arxiv.org/abs/2312.07276)][2023][Learning-assist Optimization]
+- Optimal Power Flow Based on Physical-Model-Integrated Neural Network with Worth-Learning Data Generation. [[paper](https://arxiv.org/abs/2301.03766)][physics-informed]
+- Learning Regionally Decentralized AC Optimal Power Flows With ADMM. [[paper](https://ieeexplore.ieee.org/abstract/document/10057067)][2023][Learning-assisted Optimization]
+- Learning-Aided Asynchronous ADMM for Optimal Power Flow. [[paper](https://ieeexplore.ieee.org/abstract/document/9573286)][2021][Learning-assisted Optimization]
 
 # Physics-informed learning
-Data-driven optimal power ﬂow: A physics-informed machine learning approach. [2020]
-Applications of Physics-Informed Neural Networks in Power Systems - A Review. [2022]
-DeepOPF: A Feasibility-Optimized Deep Neural Network Approach for AC Optimal Power Flow Problems. [2022]
-Fast Inverter Control by Learning the OPF Mapping Using Sensitivity-Informed Gaussian Processes. [2022]
-A convex neural network solver for DCOPF with generalization guarantees. [2021]
-High-ﬁdelity machine learning approximations of large-scale optimal power ﬂow. [2020]
-Learning to solve AC optimal power ﬂow by differentiating through holomorphic embeddings. [2020]
-Physics-informed neural networks for AC optimal power ﬂow. [2022]
-Physics-Informed Graphical Representation-Enabled Deep Reinforcement Learning for Robust Distribution System Voltage Control. [2023]
-Physics-Informed Multi-Agent deep reinforcement learning enabled distributed voltage control for active distribution network using PV inverters. [2024]
-Physical-assisted multi-agent graph reinforcement learning enabled fast voltage regulation for PV-rich active distribution network. [2023]
-Constraint learning-based optimal power dispatch for active distribution networks with extremely imbalanced data. [2023]
+
+- Data-driven optimal power ﬂow: A physics-informed machine learning approach. [2020]
+- Applications of Physics-Informed Neural Networks in Power Systems - A Review. [2022]
+- DeepOPF: A Feasibility-Optimized Deep Neural Network Approach for AC Optimal Power Flow Problems. [2022]
+- Fast Inverter Control by Learning the OPF Mapping Using Sensitivity-Informed Gaussian Processes. [2022]
+- A convex neural network solver for DCOPF with generalization guarantees. [2021]
+- High-ﬁdelity machine learning approximations of large-scale optimal power ﬂow. [2020]
+- Learning to solve AC optimal power ﬂow by differentiating through holomorphic embeddings. [2020]
+- Physics-informed neural networks for AC optimal power ﬂow. [2022]
+- Physics-Informed Graphical Representation-Enabled Deep Reinforcement Learning for Robust Distribution System Voltage Control. [2023]
+- Physics-Informed Multi-Agent deep reinforcement learning enabled distributed voltage control for active distribution network using PV inverters. [2024]
+- Physical-assisted multi-agent graph reinforcement learning enabled fast voltage regulation for PV-rich active distribution network. [2023]
+- Constraint learning-based optimal power dispatch for active distribution networks with extremely imbalanced data. [2023]
+
+
 
 # Physics-informed RL
-A Survey on Physics Informed Reinforcement Learning: Review and Open Problems. [2023]
+
+- A Survey on Physics Informed Reinforcement Learning: Review and Open Problems. [2023]
 
 # Robust learning against adversarial attacks
-Two-stage Deep Reinforcement Learning for Inverter-based Volt-VAR Control in Active Distribution Network.
-Improving Robustness of Reinforcement Learning for Power System Control with Adversarial Training.
+
+- Two-stage Deep Reinforcement Learning for Inverter-based Volt-VAR Control in Active Distribution Network.
+- Improving Robustness of Reinforcement Learning for Power System Control with Adversarial Training.
+
+
 
